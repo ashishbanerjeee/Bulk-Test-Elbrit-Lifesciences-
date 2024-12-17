@@ -1,0 +1,147 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    display: block;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.main {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+}
+
+.hero-content {
+    flex: 1;
+    color: rgb(3, 45, 73);
+    text-align: center;
+    font-size: 40px;
+}
+.hero-text{
+    font-size: 20px;
+    text-align: left;
+    flex: 1;
+}
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #00796b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.feature img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.ingredients {
+    text-align:center;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 2%;
+    background-color: #86d8b7;
+    color:rgb(3, 45, 73) ;
+}
+
+.ingredient img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+.contact-section, .logo-section, .text-section, .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .contact-section {
+    background-color: #86d8b7;
+  }
+  
+  .contact-item {
+    text-align: center;
+    padding: 1px;
+  }
+  
+  .contact-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .logo-section img {
+    width: 200px;
+  }
+  
+  .text-section {
+    background-color: #86d8b7;
+  }
+  
+  .footer-section {
+    background-color: #86d8b7;
+    font-size: 12px;
+  }
